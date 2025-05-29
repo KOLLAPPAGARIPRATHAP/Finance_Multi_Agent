@@ -2,7 +2,8 @@ import os
 os.system("pip install langchain-groq")
 
 import streamlit as st
-from langchain_groq.chat_models import ChatGroq
+from langchain_groq import ChatGroq
+
 
 # 🚨 Your actual Groq API Key here
 GROQ_API_KEY = "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"
