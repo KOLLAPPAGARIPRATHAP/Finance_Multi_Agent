@@ -1,0 +1,16 @@
+streamlit==1.45.1
+langchain-groq==0.1.0  # Use the latest version from PyPI
+langchain
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+requests
+openai
+yfinance
+sounddevice
+soundfile
+openai-whisper
+gtts
+torch
+python-dotenv
