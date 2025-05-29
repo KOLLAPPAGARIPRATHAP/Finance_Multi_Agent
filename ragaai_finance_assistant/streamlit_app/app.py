@@ -41,6 +41,7 @@ if st.button("Get Market Summary") and query.strip():
             """
 
             response = llm.invoke(prompt)
+            #st.write("DEBUG: Raw response:", response) 
             answer = response.content.strip()
 
             st.subheader("Assistant Response")
